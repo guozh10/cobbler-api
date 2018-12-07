@@ -1,0 +1,46 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.2.5
+
+server-duid "\000\001\000\001#w\015\215\000\014)\251\2015";
+
+lease 192.168.100.100 {
+  starts 4 2018/11/08 15:12:04;
+  ends 4 2018/11/08 21:12:04;
+  cltt 4 2018/11/08 15:12:04;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:0c:29:17:8d:a5;
+  set vendorclass = "PXEClient:Arch:00000:UNDI:002001";
+}
+lease 192.168.100.100 {
+  starts 4 2018/11/08 15:14:37;
+  ends 4 2018/11/08 21:14:37;
+  cltt 4 2018/11/08 15:14:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:0c:29:17:8d:a5;
+  client-hostname "bootstrap";
+}
+
+lease 192.168.100.101 {
+  starts 4 2018/11/08 15:12:04;
+  ends 4 2018/11/08 21:12:04;
+  cltt 4 2018/11/08 15:12:04;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:0c:29:17:8d:a6;
+  set vendorclass = "PXEClient:Arch:00000:UNDI:002001";
+}
+lease 192.168.100.101 {
+  starts 4 2018/11/08 15:14:37;
+  ends 4 2018/11/08 21:14:37;
+  cltt 4 2018/11/08 15:14:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:0c:29:17:8d:a6;
+  client-hostname "bootstrap";
+}

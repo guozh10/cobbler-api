@@ -1,0 +1,11 @@
+host:
+ hostname: ceph-2
+ name: ceph-2
+ interface: ens3
+ mac : 52:54:00:f8:60:d7
+ disk: vdb
+ ip: 10.121.223.13
+ netmask: 255.255.254.0
+ gateway: 192.168.100.254
+
+

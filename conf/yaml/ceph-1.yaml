@@ -1,0 +1,11 @@
+host:
+ hostname: ceph-1
+ name: ceph-1
+ interface: ens3
+ mac : 52:54:00:29:eb:5c
+ disk: sdb
+ ip: 10.121.223.12
+ netmask: 255.255.254.0
+ gateway: 192.168.100.254
+
+

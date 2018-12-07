@@ -1,12 +1,28 @@
 # cobbler-api
 Cobbler automatically deploys OS systems
+
+#clone git 
+
+
+git clone https://github.com/guozh10/cobbler-api.git
+
+
 cd  cobbler-api
+
+
 #configure OS access ip address
+
 #note
+
 #Please do not clear the first line of Public_IP
+
 cat ./bin/host
-  Public_IP
+
+   Public_IP
+  
   10.121.223.12
+  
+  
   10.121.223.13
 
 
